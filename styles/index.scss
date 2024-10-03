@@ -1,14 +1,26 @@
 @use 'fonts';
 
-@import 'header'; 
+@import 'header-footer'; 
 @import 'projects';
 
 body{
     max-width: 1109px;
+    width: 100%;
     font-family: fonts.$main-font;
     color: fonts.$main-textcolor;
 }
 
 a{
     color:fonts.$main-textcolor;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
 }

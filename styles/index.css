@@ -43,16 +43,6 @@ header {
   margin-left: 3vw;
 }
 
-p {
-  font-size: 16px;
-  line-height: 26px;
-}
-
-h2 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
 .top-section {
   display: flex;
   justify-content: space-between;
@@ -69,7 +59,6 @@ h2 {
   margin-bottom: 2vh;
   max-width: 635px;
   width: 100%;
-  opacity: 0.8;
 }
 
 .three-img-section {
@@ -83,10 +72,22 @@ section {
 
 body {
   max-width: 1109px;
+  width: 100%;
   font-family: "Mulish", sans-serif;
   color: rgb(17, 17, 17);
 }
 
 a {
   color: rgb(17, 17, 17);
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
 }
