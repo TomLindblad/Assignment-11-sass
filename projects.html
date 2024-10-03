@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
     <script src="https://kit.fontawesome.com/a920b589f2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,65 +12,71 @@
     <title>Project Details</title>
 </head>
 <body>
-    <header class="header-container">
-        <svg class="logo-container">
-            <use href="images/genesis-logo.svg#main-logo"></use>
-        </svg> 
-        <nav class="header-nav">
-            <a href="#projects"><h4>Projects</h4></a>
-            <a href="#contact"><h4>Contact</h4></a>
-        </nav>
-    </header>
-    
-    <section class="top-left-section">
-        <h2>A fresh new title can make all the difference!</h2>
-        <p>There are many variations of passages of Lorem Ipsum available,
-             but the majority have suffered alteration in some form, by injected humour,
-             or randomised words which don't look even slightly believable. 
+    <div class="main-container">
+        <header class="header-container">
+            <svg class="logo">
+                <use href="images/genesis-logo.svg#main-logo"></use>
+            </svg> 
+            <nav class="nav">
+                <a href="#projects"><h4>Projects</h4></a>
+                <a href="#contact"><h4>Contact</h4></a>
+            </nav>
+        </header>
+        
+        <section class="top-section">
+            <div class="left">
+                <h2 class="project-h2">A fresh new title can make all the difference!</h2>
+                <p class="project-bread">There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form, by injected humour,
+                    or randomised words which don't look even slightly believable.</p>
+                
+                <p class="project-bread"> You need to be sure there isn't anything embarrassing hidden in the middle of text.
+                    All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                    making this the first true generator on the Internet.
+                    It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.</p>
+            </div>
 
-            You need to be sure there isn't anything embarrassing hidden in the middle of text.
-             All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-             making this the first true generator on the Internet.
-             It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.</p>
-    </section>
+            <div class="right">
+                                                <!-- LIST THING SECTION WILL FIX-->
+            
+                <li>Project<span> Genesis Portfolio</span></li>
+            </div>
+        </section>
 
-                                        <!-- LIST THING SECTION WILL FIX-->
-    <section>
-        <li>Project<span></span></li>
-    </section>
+        <section class="big-img">
+            <img src="images/project-big.png">
+        </section>
 
-    <section class="big-img">
-        <img src="images/project-big.png">
-    </section>
+        <section>
+            <p>There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by injected humour,
+                or randomised words which don't look even slightly believable.
+                If you are going to use a passage of Lorem Ipsum,
+                You need to be sure there isn't anything embarrassing hidden in the middle of text.
+                You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        </section>
 
-    <section>
-        <p>There are many variations of passages of Lorem Ipsum available,
-             but the majority have suffered alteration in some form, by injected humour,
-             or randomised words which don't look even slightly believable.
-             If you are going to use a passage of Lorem Ipsum,
-             You need to be sure there isn't anything embarrassing hidden in the middle of text.
-             You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-    </section>
-
-    <section class="three-img-section">
-        <img src="images/project-first.png">
-        <img src="images/project-second.png">
-        <img src="images/project-third.png">
-    </section>
-    
-    <footer class="footer-container">
-        <svg>
-            <use href="images/genesis-logo.svg#main-logo"></use>
-        </svg> 
-        <nav class="footer-nav">
-            <a href="#projects"><h4>Projects</h4></a>
-            <a href="#contact"><h4>Contact</h4></a>
-        </nav>
-        <div class="awesomefont-img-links">
-            <a href="https://www.dribbble.com"><i class="fa-brands fa-dribbble"></i></a>
-            <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-            <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-    </footer>
+        <section class="three-img-section">
+            <img src="images/project-first.png">
+            <img src="images/project-second.png">
+            <img src="images/project-third.png">
+        </section>
+        
+        <footer class="footer-container">
+            <svg class="logo">
+                <use href="images/genesis-logo.svg#main-logo"></use>
+            </svg> 
+            <nav class="nav">
+                <a href="#projects"><h4>Projects</h4></a>
+                <a href="#contact"><h4>Contact</h4></a>
+            
+                <div class="awesomefont-img-links">
+                    <a href="https://www.dribbble.com"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                </div> 
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
