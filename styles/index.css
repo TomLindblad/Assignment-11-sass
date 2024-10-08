@@ -96,7 +96,7 @@ header {
 .home-grid-container {
   display: grid;
   width: 100%;
-  height: 60%;
+  height: 55%;
   margin-top: 9vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(32, 3, 125%);
@@ -232,6 +232,36 @@ hr {
 
 .awards-year {
   text-align: right;
+}
+
+.contact-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-h2 {
+  max-width: 460px;
+  width: 100%;
+  line-height: 55px;
+  padding-bottom: 4vh;
+}
+
+.contact-bread {
+  max-width: 445px;
+  width: 100%;
+  line-height: 26px;
+}
+
+.contact-form-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-span {
+  border-bottom: solid;
+  border-width: 1px;
+  opacity: 0.6;
 }
 
 body {
