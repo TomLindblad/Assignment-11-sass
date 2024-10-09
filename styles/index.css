@@ -5,19 +5,23 @@
   left: -90px;
 }
 
+.logo > a:hover {
+  opacity: 0.5;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-a {
+nav > a {
   font-size: 18px;
   margin-left: 1vw;
   text-decoration: none;
   font-weight: bold;
 }
-a :hover {
+nav > a :hover {
   opacity: 0.5;
 }
 
@@ -43,6 +47,16 @@ header {
   margin-left: 3vw;
 }
 
+.awesomefont-img-links > a {
+  font-size: 18px;
+  margin-left: 1vw;
+  text-decoration: none;
+  font-weight: bold;
+}
+.awesomefont-img-links > a :hover {
+  opacity: 0.5;
+}
+
 .top-section {
   display: flex;
   justify-content: space-between;
@@ -59,6 +73,21 @@ header {
   margin-bottom: 2vh;
   max-width: 635px;
   width: 100%;
+}
+
+.project-top-right {
+  display: flex;
+  font-weight: bold;
+}
+
+.project-li {
+  margin-right: 6vh;
+  padding-bottom: 1vh;
+  font-size: 18px;
+}
+
+.opas-05 {
+  opacity: 0.5;
 }
 
 .three-img-section {

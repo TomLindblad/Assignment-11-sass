@@ -5,13 +5,17 @@
     left: -90px;
 }
 
+.logo > a:hover{
+    opacity: 0.5;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-a {
+nav > a {
     font-size: 18px;
     margin-left: 1vw;
     text-decoration: none;
@@ -42,5 +46,16 @@ header{
 
 .awesomefont-img-links{
     margin-left: 3vw;;
+}
+
+.awesomefont-img-links > a {
+    font-size: 18px;
+    margin-left: 1vw;
+    text-decoration: none;
+    font-weight: bold;
+    
+    :hover{
+        opacity: 0.5;
+    }   
 }
 

@@ -16,6 +16,21 @@
     width: 100%;
 }
 
+.project-top-right{
+    display: flex;
+    font-weight: bold;
+}
+
+.project-li{
+    margin-right: 6vh;
+    padding-bottom: 1vh;
+    font-size: 18px;
+}
+
+.opas-05{
+    opacity: 0.5;    
+}
+
 .three-img-section{
     display: flex;
     justify-content: space-between;
