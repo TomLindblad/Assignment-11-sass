@@ -256,6 +256,11 @@ input {
   margin-bottom: 4vh;
 }
 
+#btn-submit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .home-grid-container {
   display: grid;
   width: 100%;
